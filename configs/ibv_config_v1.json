@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-17",
+  "default": {
+    "TTS_VOICE": 5,
+    "TTS_VOLUME": 70,
+    "TTS_RATE": 0,
+    "BLACKLIST_NAME": "GLOBAL",
+    "BLACKLIST_MESSAGE": "%I'm sorry. We are unable to answer your call. Goodbye",
+    "GLOBAL_HOO": 0,
+    "DEPARTMENT_HOO": 0,
+    "SKILL_HOO": 3171
+  },
+  "services": {
+    "+61391211590": {
+      "SERVICE_NAME": "Sales Hotline",
+      "BRAND_NAME": "Mpower CXone",
+      "WELCOME_MESSAGE": "%Welcome to C X one%We thank you for your call today",
+      "ON_OPEN": "QUEUE|Sales",
+      "ON_CLOSED": "VMAIL|Sales",
+      "ON_HOLIDAY": "VMAIL|Sales",
+      "ON_MEETING": "CALLBACK|Sales"
+    }
+  }
+}
